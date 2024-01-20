@@ -16,9 +16,12 @@ public class _06_TriplesOfLatinLetters {
 
                 for (char letter3 = 'a'; letter3 < 'a' + n; letter3++) {
 
-                    System.out.printf("%c%c%c\n", letter1, letter2, letter3);
+                    System.out.printf("%c%c%c%n", letter1, letter2, letter3);
+//                    System.out.println("" + letter1 + letter2 + letter3);
+//                   System.out.println(String.format("%c%c%c", letter1, letter2, letter3));
                 }
             }
         }
+
     }
 }
