@@ -30,6 +30,6 @@ public class Main {
         for (Student student : students) {
             System.out.printf("%s %s: %.2f%n", student.getFirstName(), student.getSecondName(), student.getGrade());
         }
-        
+
     }
 }
