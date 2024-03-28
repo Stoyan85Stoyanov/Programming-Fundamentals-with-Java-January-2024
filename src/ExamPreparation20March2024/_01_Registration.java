@@ -31,13 +31,16 @@ public class _01_Registration {
                     int startIndex = Integer.parseInt(commandParts[1]);
                     int endIndex = Integer.parseInt(commandParts[2]);
 
-                    if ((startIndex >= 0 && startIndex < userName.length()) && (endIndex >= 0 && endIndex < userName.length())) {
+                    boolean validStartIndex = startIndex >= 0 && startIndex < userName.length();
+                    boolean validEndIndex = endIndex >= 0 && endIndex < userName.length();
 
-                    String subst = userName.substring(startIndex, endIndex + 1);
+                    if (validStartIndex && validEndIndex) {
 
-                    StringBuilder sb = new StringBuilder(subst).reverse();
+                        String subst = userName.substring(startIndex, endIndex + 1);
 
-                    System.out.println(sb);
+                        StringBuilder sb = new StringBuilder(subst).reverse();
+
+                        System.out.println(sb);
                     }
                     break;
 
