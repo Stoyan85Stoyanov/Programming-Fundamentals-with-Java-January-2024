@@ -67,7 +67,8 @@ public class _03_BakeryShop {
                 int amountFood = inStock.getValue();
                 System.out.println(stock + ": " + amountFood);
             }
-            System.out.printf("All sold: %d goods%n", foofSum);
+            System.out.printf("All sold: %d goods", foofSum);
+            System.out.println();
 
         }
     }
