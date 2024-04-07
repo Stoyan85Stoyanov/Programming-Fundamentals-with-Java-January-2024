@@ -15,7 +15,7 @@ public class _03_BakeryShop {
 
         while (!"Complete".equals(commandInput = scanner.nextLine())) {
 
-            String[] commandParts = commandInput.split("\\s");
+            String[] commandParts = commandInput.split("\\s+");
             String command = commandParts[0];
             int quantity = Integer.parseInt(commandParts[1]);
             String food = commandParts[2];
