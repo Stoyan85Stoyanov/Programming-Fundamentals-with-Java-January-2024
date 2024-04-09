@@ -44,8 +44,7 @@ public class _03_BakeryShop {
                         if (quantity > currentQuantity) {
 
                             foofSum = foofSum + currentQuantity;
-                            System.out.printf("There aren't enough %s. You sold the last %d of them.", food, currentQuantity);
-                            System.out.println();
+                            System.out.printf("There aren't enough %s. You sold the last %d of them.%n", food, currentQuantity);
 
                             commandMap.remove(food);
 
@@ -68,8 +67,7 @@ public class _03_BakeryShop {
                 int amountFood = inStock.getValue();
                 System.out.println(stock + ": " + amountFood);
             }
-            System.out.printf("All sold: %d goods", foofSum);
-            System.out.println();
+            System.out.printf("All sold: %d goods%n", foofSum);
         }
     }
 
