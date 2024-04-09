@@ -45,7 +45,6 @@ public class _03_BakeryShop {
 
                             foofSum = foofSum + currentQuantity;
                             System.out.printf("There aren't enough %s. You sold the last %d of them.%n", food, currentQuantity);
-
                             commandMap.remove(food);
 
                         } else {
