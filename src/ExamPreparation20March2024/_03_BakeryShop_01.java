@@ -36,7 +36,8 @@ public class _03_BakeryShop_01 {
 
                 case "Sell":
                     if (!commandMap.containsKey(food)) {
-                        System.out.printf("You do not have any %s.%n", food);
+                        System.out.printf("You do not have any %s.", food);
+                        System.out.println();
 
                     } else {
                         currentQuantity = commandMap.get(food);
@@ -67,7 +68,8 @@ public class _03_BakeryShop_01 {
                 int amountFood = inStock.getValue();
                 System.out.println(stock + ": " + amountFood);
             }
-            System.out.printf("All sold: %d goods%n", foofSum);
+            System.out.printf("All sold: %d goods", foofSum);
+        System.out.println();
         }
     }
 
