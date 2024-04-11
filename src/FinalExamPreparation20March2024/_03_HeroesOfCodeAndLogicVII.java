@@ -35,9 +35,11 @@ public class _03_HeroesOfCodeAndLogicVII {
             String[] commandParts = command.split("\\s+-\\s+");
             String commandName = commandParts[0];
             String heroName = commandParts[1];
+
             switch (commandName) {
 
                 case "CastSpell":
+
                     int mpNeeded = Integer.parseInt(commandParts[2]);
                     String spellName = commandParts[3];
                     int currentMP = heroesMP.get(heroName);
@@ -53,6 +55,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     break;
 
                 case "TakeDamage":
+
                     int damage = Integer.parseInt(commandParts[2]);
                     String attacker = commandParts[3];
                     int currentHP = heroesHP.get(heroName);
@@ -69,6 +72,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     break;
 
                 case "Recharge":
+
                     int amount = Integer.parseInt(commandParts[2]);
                     int currentMPHero = heroesMP.get(heroName);
                     currentMPHero += amount;
@@ -81,6 +85,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     break;
 
                 case "Heal":
+
                     int amountHeal = Integer.parseInt(commandParts[2]);
                     int currentHPHero = heroesHP.get(heroName);
                     currentHPHero += amountHeal;
