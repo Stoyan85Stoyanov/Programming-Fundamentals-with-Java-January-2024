@@ -25,7 +25,9 @@ public class _01_ActivationKeys {
                         System.out.println("Substring not found!");
                     }
                     break;
+
                 case "Flip":
+
                     String type = commandParts[1];
                     int startIndexForReplace = Integer.parseInt(commandParts[2]);
                     int endIndexForReplace = Integer.parseInt(commandParts[3]);
@@ -42,6 +44,7 @@ public class _01_ActivationKeys {
                     activationKey = activationKey.replace(textForReplace, newText);
                     System.out.println(activationKey);
                     break;
+
                 case "Slice":
 
                     int startIndex = Integer.parseInt(commandParts[1]);
