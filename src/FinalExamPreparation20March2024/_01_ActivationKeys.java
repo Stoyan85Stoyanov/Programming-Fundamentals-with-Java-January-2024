@@ -51,9 +51,9 @@ public class _01_ActivationKeys {
                     int startIndex = Integer.parseInt(commandParts[1]);
                     int endIndex = Integer.parseInt(commandParts[2]);
 
-                    StringBuilder sb = new StringBuilder(activationKey);
-                    sb.delete(startIndex, endIndex);
-                    activationKey = sb.toString();
+                    StringBuilder builder = new StringBuilder(activationKey);
+                    builder.delete(startIndex, endIndex);
+                    activationKey = builder.toString();
 
                     System.out.println(activationKey);
                     break;
