@@ -37,6 +37,7 @@ public class _01_ActivationKeys {
 
                     if (type.equals("Upper")) {
                         newText = textForReplace.toUpperCase();
+
                     } else if (type.equals("Lower")) {
                         newText = textForReplace.toLowerCase();
                     }
