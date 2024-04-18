@@ -61,6 +61,7 @@ public class _01_ActivationKeys {
             }
             command = scanner.nextLine();
         }
-        System.out.printf("Your activation key is: %s%n", activationKey);
+        System.out.printf("Your activation key is: %s", activationKey);
+        System.out.println();
     }
 }
