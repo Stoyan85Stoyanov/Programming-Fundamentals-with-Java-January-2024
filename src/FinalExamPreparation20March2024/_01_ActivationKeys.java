@@ -18,6 +18,7 @@ public class _01_ActivationKeys {
                 case "Contains":
 
                     String subString = commandParts[1];
+
                     if (activationKey.contains(subString)) {
                        System.out.printf("%s contains %s", activationKey, subString);
                         System.out.println();
