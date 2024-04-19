@@ -19,7 +19,6 @@ public class _02_DestinationMapper {
         ArrayList<String> destinations = new ArrayList<>();
 
         int travelPoints = 0;
-
         while(matcher.find()) {
 
             destinations.add(matcher.group("places"));
