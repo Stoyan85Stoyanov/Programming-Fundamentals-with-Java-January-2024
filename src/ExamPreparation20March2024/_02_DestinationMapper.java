@@ -26,7 +26,6 @@ public class _02_DestinationMapper {
         }
 
         System.out.println("Destinations: " + String.join(", ", destinations));
-
         System.out.printf("Travel Points: %d%n", travelPoints);
     }
 }
