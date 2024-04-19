@@ -17,6 +17,7 @@ public class _02_DestinationMapper {
         Matcher matcher = pattern.matcher(places);
 
         ArrayList<String> destinations = new ArrayList<>();
+
         int travelPoints = 0;
 
         while(matcher.find()) {
