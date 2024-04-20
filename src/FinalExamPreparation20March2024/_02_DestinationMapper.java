@@ -28,6 +28,7 @@ public class _02_DestinationMapper {
 
         int travelPoints = 0;
         for (String destination : validDestinations) {
+
             travelPoints += destination.length();
         }
         System.out.printf("Travel Points: %d%n", travelPoints);
