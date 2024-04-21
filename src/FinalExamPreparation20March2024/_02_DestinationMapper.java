@@ -27,7 +27,6 @@ public class _02_DestinationMapper {
         System.out.println("Destinations: " + String.join(", ", validDestinations));
 
         int travelPoints = 0;
-
         for (String destination : validDestinations) {
             travelPoints += destination.length();
         }
