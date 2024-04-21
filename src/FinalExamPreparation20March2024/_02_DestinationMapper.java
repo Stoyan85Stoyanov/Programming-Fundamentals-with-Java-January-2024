@@ -22,6 +22,7 @@ public class _02_DestinationMapper {
         while (matcher.find()) {
             validDestinations.add(matcher.group("destination"));
         }
+
         System.out.println("Destinations: " + String.join(", ", validDestinations));
 
         int travelPoints = 0;
