@@ -21,6 +21,7 @@ public class _02_DestinationMapper {
         List<String> validDestinations = new ArrayList<>();
 
         while (matcher.find()) {
+
             validDestinations.add(matcher.group("destination"));
         }
 
