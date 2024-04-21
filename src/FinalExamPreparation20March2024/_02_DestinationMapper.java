@@ -12,7 +12,6 @@ public class _02_DestinationMapper {
         Scanner scanner = new Scanner(System.in);
 
         String allDestinations = scanner.nextLine();
-
         String regex = "([=\\/])(?<destination>[A-Z][A-Za-z]{2,})\\1";
 
         Pattern pattern = Pattern.compile(regex);
