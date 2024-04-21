@@ -29,6 +29,5 @@ public class _02_DestinationMapper {
             travelPoints += destination.length();
         }
         System.out.printf("Travel Points: %d", travelPoints);
-        System.out.println();
     }
 }
