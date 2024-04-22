@@ -81,6 +81,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     if (currentMPHero > 200) {
                         currentMPHero = 200;
                     }
+
                     System.out.printf("%s recharged for %d MP!%n", heroName, currentMPHero - heroesMP.get(heroName));
                     heroesMP.put(heroName, currentMPHero);
                     break;
