@@ -45,6 +45,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     int currentMP = heroesMP.get(heroName);
 
                     if (currentMP >= mpNeeded) {
+
                         int mpLeft = currentMP - mpNeeded;
                         heroesMP.put(heroName, mpLeft);
                         System.out.printf("%s has successfully cast %s and now has %d MP!", heroName, spellName, mpLeft);
