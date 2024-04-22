@@ -64,6 +64,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                     if (currentHP > 0) {
                         heroesHP.put(heroName, currentHP);
                         System.out.printf("%s was hit for %d HP by %s and now has %d HP left!%n", heroName, damage, attacker, currentHP);
+
                     }else {
                         System.out.printf("%s has been killed by %s!%n", heroName, attacker);
                         heroesHP.remove(heroName);
