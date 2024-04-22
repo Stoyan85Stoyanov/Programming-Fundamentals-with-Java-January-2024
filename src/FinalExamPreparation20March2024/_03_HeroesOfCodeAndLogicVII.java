@@ -51,6 +51,7 @@ public class _03_HeroesOfCodeAndLogicVII {
 
                     }else {
                       System.out.printf("%s does not have enough MP to cast %s!", heroName, spellName);
+                        System.out.println();
                     }
                     break;
 
