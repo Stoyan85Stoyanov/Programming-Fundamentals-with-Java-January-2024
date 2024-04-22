@@ -47,7 +47,8 @@ public class _03_HeroesOfCodeAndLogicVII {
                     if (currentMP >= mpNeeded) {
                         int mpLeft = currentMP - mpNeeded;
                         heroesMP.put(heroName, mpLeft);
-                        System.out.printf("%s has successfully cast %s and now has %d MP!%n", heroName, spellName, mpLeft);
+                        System.out.printf("%s has successfully cast %s and now has %d MP!", heroName, spellName, mpLeft);
+
 
                     }else {
                       System.out.printf("%s does not have enough MP to cast %s!%n", heroName, spellName);
