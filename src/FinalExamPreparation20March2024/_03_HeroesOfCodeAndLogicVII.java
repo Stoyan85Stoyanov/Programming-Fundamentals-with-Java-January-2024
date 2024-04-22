@@ -50,7 +50,7 @@ public class _03_HeroesOfCodeAndLogicVII {
                         System.out.printf("%s has successfully cast %s and now has %d MP!%n", heroName, spellName, mpLeft);
 
                     }else {
-                      System.out.printf("%s does not have enough MP to cast %s!%n", heroName, spellName);
+                      System.out.printf("%s does not have enough MP to cast %s!", heroName, spellName);
                     }
                     break;
 
