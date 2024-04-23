@@ -24,7 +24,6 @@ public class _02_DestinationMapper {
         }
 
         System.out.print("Destinations: " + String.join(", ", validDestinations));
-        System.out.println();
 
         int travelPoints = 0;
         for (String destination : validDestinations) {
