@@ -23,7 +23,7 @@ public class _02_DestinationMapper {
             validDestinations.add(matcher.group("destination"));
         }
 
-        System.out.print("Destinations: " + String.join(", ", validDestinations));
+        System.out.println("Destinations: " + String.join(", ", validDestinations));
 
         int travelPoints = 0;
         for (String destination : validDestinations) {
