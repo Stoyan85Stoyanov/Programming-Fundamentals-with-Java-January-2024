@@ -21,7 +21,7 @@ public class _01_ActivationKeys {
 
                     if (activationKey.contains(subString)) {
                        System.out.printf("%s contains %s", activationKey, subString);
-                        System.out.println();
+
 
                     } else {
                         System.out.println("Substring not found!");
