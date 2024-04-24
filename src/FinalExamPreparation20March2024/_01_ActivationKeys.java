@@ -30,6 +30,7 @@ public class _01_ActivationKeys {
                 case "Flip":
 
                     String type = commandParts[1];
+
                     int startIndexForReplace = Integer.parseInt(commandParts[2]);
                     int endIndexForReplace = Integer.parseInt(commandParts[3]);
 
