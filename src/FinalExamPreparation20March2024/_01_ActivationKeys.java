@@ -14,39 +14,49 @@ public class _01_ActivationKeys {
             String [] commandParts = command.split(">>>");
             String commandName = commandParts[0];
 
-            switch (commandName) {
-                case "Contains" -> {
+            switch(commandName) {
+                case "Contains":
+
                     String subString = commandParts[1];
                     if (activationKey.contains(subString)) {
-                        System.out.printf("%s contains %s%n", activationKey, subString);
+                       System.out.printf("%s contains %s%n", activationKey, subString);
 
                     } else {
                         System.out.println("Substring not found!");
                     }
-                }
-                case "Flip" -> {
+                    break;
+
+                case "Flip":
+
                     String type = commandParts[1];
                     int startIndexForReplace = Integer.parseInt(commandParts[2]);
                     int endIndexForReplace = Integer.parseInt(commandParts[3]);
+
                     String textForReplace = activationKey.substring(startIndexForReplace, endIndexForReplace);
                     String newText = "";
+
                     if (type.equals("Upper")) {
                         newText = textForReplace.toUpperCase();
 
                     } else if (type.equals("Lower")) {
                         newText = textForReplace.toLowerCase();
                     }
+
                     activationKey = activationKey.replace(textForReplace, newText);
                     System.out.println(activationKey);
-                }
-                case "Slice" -> {
+                    break;
+
+                case "Slice":
+
                     int startIndex = Integer.parseInt(commandParts[1]);
                     int endIndex = Integer.parseInt(commandParts[2]);
+
                     StringBuilder builder = new StringBuilder(activationKey);
                     builder.delete(startIndex, endIndex);
                     activationKey = builder.toString();
+
                     System.out.println(activationKey);
-                }
+                    break;
             }
             command = scanner.nextLine();
         }
