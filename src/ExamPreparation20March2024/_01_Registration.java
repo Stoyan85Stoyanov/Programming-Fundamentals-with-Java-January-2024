@@ -10,7 +10,7 @@ public class _01_Registration {
         String command = scanner.nextLine();
 
         while (!command.equals("Registration")) {
-            String[] commandParts = command.split("\\s");
+            String[] commandParts = command.split("\\s+");
             String commandName = commandParts[0];
 
             switch (commandName) {
