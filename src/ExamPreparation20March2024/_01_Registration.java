@@ -20,6 +20,7 @@ public class _01_Registration {
 
                     if (upperOrLower.equals("Upper")) {
                         userName = userName.toUpperCase();
+
                     } else if (upperOrLower.equals("Lower")) {
                         userName = userName.toLowerCase();
                     }
