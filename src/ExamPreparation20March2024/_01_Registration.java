@@ -54,7 +54,7 @@ public class _01_Registration {
                         System.out.println(userName);
 
                     } else {
-                        System.out.printf("The username %s doesn't contain %s.", userName, substring);
+                        System.out.printf("The username %s doesn't contain %s.%n", userName, substring);
                     }
                     break;
 
