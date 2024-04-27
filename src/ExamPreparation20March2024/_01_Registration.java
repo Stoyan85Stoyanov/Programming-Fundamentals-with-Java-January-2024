@@ -24,7 +24,8 @@ public class _01_Registration {
                     } else if (upperOrLower.equals("Lower")) {
                         userName = userName.toLowerCase();
                     }
-                    System.out.println(userName);
+                    System.out.print(userName);
+                    System.out.println();
 
                     break;
 
