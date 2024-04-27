@@ -25,7 +25,6 @@ public class _01_Registration {
                         userName = userName.toLowerCase();
                     }
                     System.out.print(userName);
-
                     System.out.println();
 
                     break;
