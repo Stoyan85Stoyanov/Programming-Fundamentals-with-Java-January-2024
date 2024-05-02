@@ -25,7 +25,6 @@ public class _01_Registration {
                         userName = userName.toLowerCase();
                     }
                     System.out.println(userName);
-
                     break;
 
                 case "Reverse":
