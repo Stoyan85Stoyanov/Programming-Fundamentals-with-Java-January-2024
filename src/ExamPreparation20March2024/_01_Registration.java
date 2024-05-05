@@ -41,6 +41,7 @@ public class _01_Registration {
                         StringBuilder sb = new StringBuilder(subst).reverse();
 
                         System.out.println(sb);
+
                     }
                     break;
 
